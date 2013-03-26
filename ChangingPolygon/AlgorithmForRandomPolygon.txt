@@ -1,0 +1,10 @@
+1.	Set an array A of N for N points in the 2D plane.
+2.	Set 4 arrays of N+1 as the sets of 4 quadrants. The first element of each quadrants arrays is used to store the number of elements in the each quadrants.
+3.	Set a array B of N-1 to store the N-1 angles between two consecutive sides.
+4.	For each element in the array A, let¡¯s use Math.random() to assign the value of (x, y) one by one. 
+5.	Once we get a new element, let¡¯s use comparison to distribute it into different quadrants. For example, as a point (a, b) in the first quadrant, a>0 and b>0.
+6.	Once we have N elements in the array A, let¡¯s sort all the elements in the four quadrants by the y coordinators.
+7.	 Let¡¯s compute the N-1 angles from the first two vectors to the last two vectors in the 4th quadrant.
+8.	Computing the centerMass of the N points.
+9.	Let¡¯s update all the points with point ¨C centerMass as the new vector array.
+10.	So far, we have all the vectors in the N-polygon and all the angles between two consecutive sides. And I hope it¡¯s not too tough to have a graph of the polygon. 
